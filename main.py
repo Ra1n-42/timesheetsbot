@@ -9,11 +9,11 @@ def run():
 
     # today = date.today()
 
-    # falls vorlage2 nicht existiert, wird standard benutzt
+    # falls vorlage nicht existiert, wird standard benutzt
     try:
         wb = load_workbook(WORKBOOK_PATH)
     except:
-        wb = load_workbook('/vorlage2/Stundenzettel-VORLAGE.xlsx')
+        wb = load_workbook('/vorlage/Stundenzettel-VORLAGE.xlsx')
 
     if not os.path.exists(OUTPUT_PATH):
         os.makedirs(OUTPUT_PATH)
@@ -40,7 +40,7 @@ def run():
 
     save_pdf(WORKBOOK_PATH, output_path)
     # mailing.send_mail(SEND_MAIL_FROM, SEND_MAIL_TO, f'Stundenzettel KW{WEEKNUMBER} {NACHNAME}, {YEAR}',
-    #                   f"""Hier ist der Stundenzettel für KW{WEEKNUMBER}.\n\nLiebe grüße, Yo's Bot."""
+    #                   f"""Hier ist der Stundenzettel für KW{WEEKNUMBER}.\n\nLiebe grüße, Rain's Bot."""
     #                   , files=output_path)
 
 if __name__ == '__main__':

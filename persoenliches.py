@@ -43,7 +43,7 @@ BAUSTELLEN = {
 }
 
 # Pfad der Vorlagedatei
-WORKBOOK_PATH = 'D:/PycharmProject/vorlage2/'+AUFTRAGGEBER+'-VORLAGE.xlsx'
+WORKBOOK_PATH = 'D:/PycharmProject/vorlage/'+AUFTRAGGEBER+'-VORLAGE.xlsx'
 
 OUTPUT_PATH = 'D:/PycharmProject/readytosend/'
 
