@@ -22,10 +22,6 @@ OUTPUT_PATH = 'D:/PycharmProject/readytosend/'
 
 3. In der DATEN Dictionary werden die Adressen der Zellen hinterlegt, diese können ganz einfach editiert werden, falls sich das Format in der Volagendatei ändert.
 
-# Was brauche ich um den Bot zu starten?
-1. Python 3.9 als Standalone
-2. Die main.py auf die Exe ziehen und viel Spaß.
-
 # Zusatz!
 Im jetzigen Stand, wird nur die Fertige Datei zum senden erstellt, um die Datei via Mail zu senden einfach in der main.py 
 ````
