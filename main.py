@@ -9,11 +9,11 @@ def run():
 
     # today = date.today()
 
-    # falls vorlage nicht existiert, wird standard benutzt
+    # falls vorlage2 nicht existiert, wird standard benutzt
     try:
         wb = load_workbook(WORKBOOK_PATH)
     except:
-        wb = load_workbook('D:/PycharmProject/vorlage/Stundenzettel-VORLAGE.xlsx')
+        wb = load_workbook('/vorlage2/Stundenzettel-VORLAGE.xlsx')
 
     if not os.path.exists(OUTPUT_PATH):
         os.makedirs(OUTPUT_PATH)
